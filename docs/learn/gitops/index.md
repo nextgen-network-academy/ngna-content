@@ -12,7 +12,7 @@ This track covers network automation using Arista AVD, Ansible, and Git-based wo
 
 | Guide | Status |
 |-------|--------|
-| [AVD + CloudVision Campus Tags](/learn/gitops/avd-campus-tags/index.md) | ✅ Live |
+| [AVD + CloudVision Campus Tags](avd-campus-tags/index.md) | ✅ Live |
 | Day-2 Ops with CloudVision Quick Actions | 🔧 Coming soon |
 | Static Studio Manifests — zero to deployed | 📋 Planned |
 | AVD CI/CD pipeline with GitHub Actions | 📋 Planned |
@@ -29,5 +29,5 @@ pip install pyavd
 ---
 
 !!! tip "Start here"
-    The **[AVD Campus Tags](../../labs/avd-campus-tags/index.md)** guide is the best entry point for this track.
+    The **[AVD Campus Tags](avd-campus-tags/index.md)** guide is the best entry point for this track.
     It covers the core concept that connects AVD automation to CloudVision Day-2 operations.
