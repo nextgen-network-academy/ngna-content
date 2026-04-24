@@ -68,7 +68,7 @@ nav:
       - Overview: learn/netops/index.md
     - GitOps:
       - Overview: learn/gitops/index.md
-      - AVD Campus Tags: learn/gitops/avd-campus-tags.md
+      - AVD Campus Tags: learn/gitops/avd-campus-tags/index.md
     - AIOps:
       - Overview: learn/aiops/index.md
   - Labs:
