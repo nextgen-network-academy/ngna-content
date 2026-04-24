@@ -1,0 +1,86 @@
+site_name: NextGen Network Academy
+site_url: https://learn.nextgennetworkacademy.com/
+site_description: Real-world Arista AVD workflows, working lab configs, and step-by-step guides — built by a practitioner, for engineers who actually ship things.
+site_author: Nick D'Ambrosio
+
+repo_url: https://github.com/nextgen-network-academy/ngna-content
+repo_name: nextgen-network-academy/ngna-content
+edit_uri: edit/dev/docs/
+
+copyright: "© 2026 nextgennetworkacademy.com — Nick D'Ambrosio"
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: custom
+    accent: custom
+  font:
+    text: Share Tech Mono
+    code: Share Tech Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - content.code.annotate
+    - search.highlight
+    - search.suggest
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      title: On this page
+
+nav:
+  - Home: index.md
+  - Learn:
+    - Overview: learn/index.md
+    - Foundations:
+      - Overview: learn/foundations/index.md
+    - NetOps:
+      - Overview: learn/netops/index.md
+    - GitOps:
+      - Overview: learn/gitops/index.md
+      - AVD Campus Tags: learn/gitops/avd-campus-tags.md
+    - AIOps:
+      - Overview: learn/aiops/index.md
+  - Labs:
+    - Overview: labs/index.md
+    - AVD Campus Tags Lab: labs/avd-campus-tags/index.md
+  - About: about/index.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/nicholas-dambrosio-0381871a/
+      name: Nick D'Ambrosio on LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/nextgen-network-academy
+      name: NextGen Network Academy on GitHub
