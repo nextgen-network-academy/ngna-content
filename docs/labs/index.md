@@ -23,7 +23,7 @@ Built by a practitioner, for engineers who actually ship things.
 
 | Guide | Track | Status |
 |-------|-------|--------|
-| [AVD + CloudVision Campus Tags](labs/avd-campus-tags/index.md) | GitOps | ✅ Live |
+| [AVD + CloudVision Campus Tags](avd-campus-tags/index.md) | GitOps | ✅ Live |
 | Day-2 Ops with CloudVision Quick Actions | NetOps | 🔧 Coming soon |
 | Static Studio Manifests — zero to deployed | GitOps | 📋 Planned |
 
