@@ -66,6 +66,7 @@ nav:
       - Overview: learn/foundations/index.md
     - NetOps:
       - Overview: learn/netops/index.md
+      - Arista eAPI with Python: learn/netops/arista-eapi-python/index.md
     - GitOps:
       - Overview: learn/gitops/index.md
       - AVD Campus Tags: learn/gitops/avd-campus-tags/index.md
@@ -74,6 +75,7 @@ nav:
   - Labs:
     - Overview: labs/index.md
     - AVD Campus Tags Lab: labs/avd-campus-tags/index.md
+    - Arista eAPI Python Lab: labs/arista-eapi-python/index.md
   - About: about/index.md
 
 extra:
